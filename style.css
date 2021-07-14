@@ -152,9 +152,12 @@
       color: #000;
   }
                 /* addd Items */
+                .additional{
+                  background-image: url("images/players/istockphoto-531912354-612x612.jpg" width:100%);
+                }
     .add-item{
         display:flex ;
-    }
+        }
 
     .add-text{ 
     width: 466px;
