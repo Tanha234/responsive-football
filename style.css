@@ -37,14 +37,14 @@
      .container{
        display: flex;
        width:1440px;
-       background-color: rgba(127, 198, 219, 0.623);
+       background-color: rgba(37, 7, 156, 0.753);
        
 
      }
     
           
 .banners{
-    /* background-color: rgba(127, 198, 219, 0.623); */
+    
     justify-content: center;
 }
     
@@ -87,7 +87,8 @@
     width: 556.01px;
      height: 438px;
      margin-top: 207px;
-     /* margin-bottom:240px; */
+     margin-bottom: 80px;
+     
 }
         /* Players Part */
 .players{
@@ -210,3 +211,40 @@
                 align-items: center;
 
             }
+            .container:hover .banner-image {
+              
+              background-color: rgba(87, 92, 76, 0.596);
+          }
+          .container:hover .banner-image{
+              transform: scale(2) skew(30deg);
+              transition: transform 2s ease-in;
+          }
+
+          @media only screen and (max-width: 688px) { 
+    .container{
+        width:100%;
+    }
+  .players {
+   
+    grid-template-columns: repeat(1,1fr);
+    
+  }
+  .player{
+    flex-direction: column;
+}
+
+}
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+
+ 
+
+
+.container{
+  width:100%;
+}
+.players{
+  grid-template-columns: repeat(2,1fr);
+}
