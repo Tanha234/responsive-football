@@ -12,7 +12,7 @@
         margin-left: 793px;
           
 
-        background-color: azure;
+        background-color:rgba(224, 222, 219, 0.103);
      }
     
         
@@ -34,27 +34,35 @@
         flex-direction:column;
     }
      */
+     .container{
+       display: flex;
+       width:1440px;
+       background-color: rgba(127, 198, 219, 0.623);
+       
+
+     }
     
           
 .banners{
-    background-color: rgba(127, 198, 219, 0.623);
-    display: flex;
+    /* background-color: rgba(127, 198, 219, 0.623); */
     justify-content: center;
 }
     
-  .banner-link a,.highlight-text a{
+  .banners a,.highlight-text a{
     text-decoration: none;
     border:1px solid;
-    background-color: rgb(131, 158, 180);
+    background-color: #aebdd1;
     padding: 10px 24px;
     width: 168px;
     height: 44px; 
     font-size: 16px;
+    justify-content: center;
+    
 }  
 
 
 
-.banner .banner-title{
+.banner-title{
     Width:485px;
     Height:230px;
     font-size: 64px;
@@ -63,11 +71,13 @@
     margin-top: 207px;
     margin-left: 156px;
     margin-right: 102px;
+    color: rgb(250, 250, 185);
 }
 
 
   .banner-link{
       margin-bottom: 239px;
+      margin-left:150px;
 
   }
 
