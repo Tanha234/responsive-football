@@ -225,19 +225,31 @@
             }
              
              /* Media query phone */ */
-             @media only screen and (max-width: 688px)
-             {
-              .top-players{
-                width:100%;
+             @media only screen and (max-width: 688px) { 
+              .container{
+                  width:100%;
+              }
+            .players {
+             
+              display: flex;
+              
             }
-          .players {
-           
-            grid-template-columns: repeat(1,1fr);
+            .player{
+                flex-direction: column;
+            }
             
           }
-          .player{
-              flex-direction: column;
-          }
-          
-        }
-        
+
+          @media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+
+ 
+
+
+.container{
+  width:100%;
+}
+.players{
+  grid-template-columns: repeat(2,1fr);
+}
