@@ -29,11 +29,11 @@
         align-items: center;
         
     }
-    .banner{
+    /* .banner{
         margin-bottom:27px;
         flex-direction:column;
     }
-    
+     */
     
           
 .banners{
@@ -125,9 +125,7 @@
     margin-top:224px;
     margin-bottom: 217px;
   }
-  .highlight-text a{
-
-  }
+  
   .highlight-image img{
     width: 567px;
     height: 427px;
@@ -142,6 +140,33 @@
       line-height: 60px;
       color: #000;
   }
+                /* addd Items */
+    .add-item{
+        display:flex ;
+    }
+
+    .add-text{ 
+    width: 466px;
+    height: 309px;
+    padding:2%;
+    margin-right:30px;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 10px;
+    margin-top:224px;
+    margin-bottom: 217px;
+  }
+        
+    .add-image img{
+      width: 567px;
+     height: 427px;
+    
+    padding:2%;
+     margin-top: 165px;
+   margin-right: 150px;
+  margin-left: 150px;
+                    
+                }
        /* logo */
        .logo img{
         width: 483.87px;
